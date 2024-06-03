@@ -10,8 +10,9 @@ Firmware License : [![Many Licenses](https://img.shields.io/badge/license-LGPL2+
 * Build Instructions
 ```bash
  sudo apt-get install git build-essential fakeroot libncurses5-dev libssl-dev ccache
- sudo apt-get install dfu-util u-boot-tools device-tree-compiler libssl1.0-dev mtools
+ sudo apt-get install dfu-util u-boot-tools device-tree-compiler mtools
  sudo apt-get install bc python cpio zip unzip rsync file wget
+ sudo apt-get install flex bison libgmp-dev libmpc-dev
  git clone --recursive https://github.com/analogdevicesinc/plutosdr-fw.git
  cd plutosdr-fw
  export VIVADO_SETTINGS=/opt/Xilinx/Vivado/2021.2/settings64.sh
